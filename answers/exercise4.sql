@@ -1,0 +1,1 @@
+SELECT * FROM STUDENTS WHERE REGEXP_LIKE(CITY, '^[?!a|?!c|?!f]');
